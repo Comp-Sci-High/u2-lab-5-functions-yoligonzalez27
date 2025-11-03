@@ -18,8 +18,10 @@ console.log("TASK 1: Divide Two Numbers");
 // • Define a function named `divide` that takes two inputs: num1 and num2.
 // • Inside the function, return the result of dividing num1 by num2.
 // • Call the `divide` function with the inputs 4 and 5, and log the result.
-
-
+function divide(num1, num2){
+    return num1/num2 
+}
+let task1= devide ()
 // ============================================================
 // TASK 2: Greet a User
 // ============================================================
@@ -29,7 +31,9 @@ console.log("TASK 2: Greet a User");
 // • Define a function named `greetUser` that takes one input: name.
 // • Inside the function, return a greeting string like "Hello, [name]!"
 // • Call the `greetUser` function with your name, and log the result.
-
+function greetUser(name){
+    return 
+}
 
 // ============================================================
 // TASK 3: Subtract Two Numbers
@@ -40,7 +44,12 @@ console.log("TASK 3: Subtract Two Numbers");
 // • Define a function named `subtract` that takes two inputs: num1 and num2.
 // • Inside the function, return the result of subtracting num2 from num1.
 // • Call the `subtract` function with the inputs 10 and 3, and log the result.
+function subtract(num1, num2){
+    return num1 - num2
+}
 
+let task 3 = subtract(10, 3)
+console.log('10 - 3 = ${task3}')
 
 // ============================================================
 // TASK 4: Calculate the Square of a Number
@@ -51,7 +60,11 @@ console.log("TASK 4: Square a Number");
 // • Define a function named `square` that takes one input: num.
 // • Inside the function, return the result of squaring the number (num * num).
 // • Call the `square` function with the argument 6, and log the result.
-
+function square(num){
+    return num*num
+}
+let task4 = square(6)
+console.log('6 * 6 = ${task4}')
 
 // ============================================================
 // TASK 5: Display a Random Movie
@@ -63,7 +76,15 @@ console.log("TASK 5: Display a Random Movie");
 // • Inside, create an array of 3–5 movie titles (strings).
 // • Pick one at random using Math.random() and log "Tonight’s pick: [movie name]".
 // • Call the function (no parameters) to test it.
-
+function showRandomMovie(){
+    let movieChoices = [
+    "black panter",
+    "ghost of tsushies",
+    "ghost of move"
+]
+let chice = Math.floor(Math,random() * movieChoices, length)
+console.log('Tonights Pick ${movieChoices[choice]})')
+}
 
 // ============================================================
 // TASK 6: Convert Minutes to Hours
